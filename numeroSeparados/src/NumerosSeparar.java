@@ -3,10 +3,21 @@ public class NumerosSeparar {
  private Integer numero;
 Scanner lectura = new Scanner (System.in);
  public NumerosSeparar() {
-  System.out.println("Debe tener algún número\n Digite un número: ");
-this.numero= lectura.nextInt();
 
- }
+   try {
+     System.out.println("Debe tener algún número\n Digite un número: ");
+   this.numero= lectura.nextInt();
+   System.out.println("¡Valor guardodado con éxito!😌");
+
+   } catch (Exception e) {
+    // TODO: handle exception
+    
+    System.out.println("No se puede con otro valor que no sea entero");
+   }
+   
+
+
+  }
 
  public NumerosSeparar(Integer numero) {
   this.numero = numero;
@@ -20,17 +31,23 @@ this.numero= lectura.nextInt();
   this.numero = numero;
  }
 public void separaNumero(){
- String[] numeroSeparado= Integer.toString(numero).split("");
+ try {
+  String[] numeroSeparado= Integer.toString(numero).split("");
 String numeroSeparado1 = "";
-System.out.println(numeroSeparado);
+
 
 for (String numero : numeroSeparado) {
  numeroSeparado1+=numero+" ";
 }
-System.out.println(numeroSeparado1);
+System.out.println("¡Operación realizada con éxito! 🥳. El resultado es: "+numeroSeparado1);
+
+  
+ } catch (Exception e) {
+  // TODO: handle exception
+  System.out.println("No se puede hacer con no enteros. ¡NO INSISTA! 🤬");
+ }
+ 
+
 
 }
-
-
-
 }
