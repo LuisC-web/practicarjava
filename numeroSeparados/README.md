@@ -2,7 +2,7 @@
 
 ## Separación de los dígitos en un entero
 
-Escriba una aplicación que reciba del usuario un número compuesto por cinco dígitos, que separe etse número en sus dígitos individuales y los imprima, cada uno separado de los demás por tres espacios.
+Escriba una aplicación que reciba del usuario un número compuesto por cinco dígitos, que separe este número en sus dígitos individuales y los imprima, cada uno separado de los demás por tres espacios.
 
 # Solución del ejercicio
 
@@ -11,7 +11,7 @@ Escriba una aplicación que reciba del usuario un número compuesto por cinco d�
 
 - Datos de entrada
 
-  - Numero entero.Se pide números enteros de 5 digitos pero se trabajara con números de diferentes digitos. Además que el signo menos de los números enteros negativos se tomará como un dígito
+  - Numero entero. Se pide un número entero de 5 digitos pero se trabajará con números de diferentes digitos sea mayor o menor que 5. Además que el signo menos de los números enteros negativos se tomará como un dígito
 
 - Dato de salida
   \*El número seperado por tres espacios ejemplo el número de entrada sería "42339" la salida sería "4 2 3 3 3 9"
