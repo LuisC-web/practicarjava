@@ -33,12 +33,10 @@ Scanner lectura = new Scanner (System.in);
 public void separaNumero(){
  try {
   String[] numeroSeparado= Integer.toString(numero).split("");
-String numeroSeparado1 = "";
+String numeroSeparado1 = String.join("   ",numeroSeparado);
 
 
-for (String numero : numeroSeparado) {
- numeroSeparado1+=numero+" ";
-}
+
 System.out.println("¡Operación realizada con éxito! 🥳. El resultado es: "+numeroSeparado1);
 
   
