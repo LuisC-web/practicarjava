@@ -1,4 +1,4 @@
-# Ejercicio 2.30
+# Ejercicio 2.30- Documentación
 
 ## Separación de los dígitos en un entero
 
@@ -27,6 +27,21 @@ El problema tiene los datos de entrada, el proceso y su dato de salida respectiv
   - join() Este método convierte un array en un String. Recibe un delimitador y el array o una serie de cadena que se va a unir. Por ejemplo:
     ![alt no se encontró la imagen](./src/assets/join.jpeg)
 
-## Diseño UML
+## 2. Diseño UML
+
 Teniendo en cuenta el analisis anterior se puede abstraer que se necesita una clase que se representa con el siguiente diseño
-    ![alt no se encontró la imagen](./src/assets/Clase%20UML.svg)
+![alt no se encontró la imagen](./src/assets/Clase%20UML.svg)
+
+## 3. Implementación
+
+La implementación se encuentra en este repositorio de github. Para ejecutarlo:
+
+1. git clone https://github.com/LuisC-web/practicarjava/tree/main/numeroSeparados
+2. Abrir proyecto en vscode
+3. Entrar en carpeta src y ejecutar archivo App.java
+
+## Testeo
+
+Para ejecutar las pruebas de testeo se saldrá al ejecutar el programa un mensaje donde podrá o no aceptar los testeo. Si quiere ejecutar presione la tecla "y" de lo contrario "n"
+
+### Creado por Luis Camargo Guzman-20221005086. Usuario github LuisC-web
