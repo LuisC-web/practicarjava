@@ -6,15 +6,16 @@ Escriba una aplicación que reciba del usuario un número compuesto por cinco d�
 
 # Solución del ejercicio
 
-1. Analisis del problema
-   El problema tiene los datos de entrada, el proceso y su dato de salida respectivamente
+## 1. Analisis del problema
+
+El problema tiene los datos de entrada, el proceso y su dato de salida respectivamente
 
 - Datos de entrada
 
   - Numero entero. Se pide un número entero de 5 digitos pero se trabajará con números de diferentes digitos sea mayor o menor que 5. Además que el signo menos de los números enteros negativos se tomará como un dígito
 
 - Dato de salida
-  \*El número seperado por tres espacios ejemplo el número de entrada sería "42339" la salida sería "4   2   3   3   3   9"
+  \*El número seperado por tres espacios ejemplo el número de entrada sería "42339" la salida sería "4 2 3 3 3 9"
 
 - Proceso
 
