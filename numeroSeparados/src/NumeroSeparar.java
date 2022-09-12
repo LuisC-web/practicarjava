@@ -23,7 +23,6 @@ private Scanner lectura = new Scanner (System.in);
    this.numero = numero;
    
    // TODO: handle exception
-       System.out.println("No se puede con otro valor que no sea entero");
 
  }
  public NumeroSeparar(String numero) {
