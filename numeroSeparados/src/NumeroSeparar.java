@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class NumerosSeparar {
+public class NumeroSeparar {
  private Integer numero;
-Scanner lectura = new Scanner (System.in);
- public NumerosSeparar() {
+private Scanner lectura = new Scanner (System.in);
+ public NumeroSeparar() {
 
    try {
      System.out.println("Debe tener algún número\n Digite un número: ");
@@ -19,10 +19,32 @@ Scanner lectura = new Scanner (System.in);
 
   }
 
- public NumerosSeparar(Integer numero) {
-  this.numero = numero;
+ public NumeroSeparar(Integer numero) {
+   this.numero = numero;
+   
+   // TODO: handle exception
+       System.out.println("No se puede con otro valor que no sea entero");
+
+ }
+ public NumeroSeparar(String numero) {
+ 
+   // TODO: handle exception
+       System.out.println("No se puede con otro valor que no sea entero");
+
  }
 
+ public NumeroSeparar(Float numero) {
+ 
+   // TODO: handle exception
+       System.out.println("No se puede con otro valor que no sea entero");
+
+ }
+  public NumeroSeparar(Double numero) {
+ 
+   // TODO: handle exception
+       System.out.println("No se puede con otro valor que no sea entero");
+
+ }
  public Integer getNumero() {
   return numero;
  }
@@ -30,7 +52,7 @@ Scanner lectura = new Scanner (System.in);
  public void setNumero(Integer numero) {
   this.numero = numero;
  }
-public void separaNumero(){
+public void separarNumero(){
  try {
   String[] numeroSeparado= Integer.toString(numero).split("");
 String numeroSeparado1 = String.join("   ",numeroSeparado);
