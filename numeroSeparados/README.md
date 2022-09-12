@@ -15,7 +15,7 @@ El problema tiene los datos de entrada, el proceso y su dato de salida respectiv
   - Se pide un número entero de 5 digitos pero se trabajará con números de diferentes digitos sea mayor o menor que 5 dígitos. Además que el signo menos de los números enteros negativos se tomará como un dígito
 
 - Dato de salida
-  \*El número seperado por tres espacios. Ejemplo el número de entrada sería "42339" la salida sería "4 2 3 3 3 9"
+  - El número seperado por tres espacios. Ejemplo el número de entrada sería "42339" la salida sería "4 2 3 3 3 9"
 
 - Proceso
 
