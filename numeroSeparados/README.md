@@ -36,8 +36,9 @@ Teniendo en cuenta el analisis anterior se puede abstraer que se necesita una cl
 
 La implementación se encuentra en este repositorio de github. Para ejecutarlo:
 
-1. git clone https://github.com/LuisC-web/practicarjava/tree/main/numeroSeparados
+1. git clone https://github.com/LuisC-web/practicarjava
 2. Abrir proyecto en vscode
+4. Acceder  la carpeta numeroSeparados
 3. Entrar en carpeta src y ejecutar archivo App.java
 
 ## Testeo
